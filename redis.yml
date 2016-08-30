@@ -1,0 +1,9 @@
+development: 
+  :host: localhost
+  :port: 6379
+test: 
+  :host: localhost
+  :port: 6379
+production: # this need to be changed to the real production redis server
+  :host: localhost
+  :port: 6379
